@@ -1,3 +1,6 @@
 [submodule "Game\\Assets\\Scripts"]
 	path = Game\\Assets\\Scripts
 	url = https://github.com/I-LoveBees/Scripts
+[submodule "CowRun\\Assets\\Scripts"]
+	path = CowRun\\Assets\\Scripts
+	url = https://github.com/I-LoveBees/Scripts
