@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c22a3286254e9b49aa2bb227d32143d, type: 3}
-  m_Name: Score
+  m_Name: Health
   m_EditorClassIdentifier: 
-  value: 0
+  value: -17
   disableEvent:
     m_PersistentCalls:
       m_Calls: []
