@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 7076081765865464646}
   - component: {fileID: 6413669718292426762}
   - component: {fileID: 3181630918155334906}
-  - component: {fileID: 3859496670314399011}
   - component: {fileID: 8291209591407565702}
+  - component: {fileID: 903264056712806021}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -185,21 +185,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &3859496670314399011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1867594163669647866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d8c28e011a5b9e4aa08a1137eda38a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpForce: 7
-  gravity: -9.81
 --- !u!114 &8291209591407565702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,6 +212,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: ccd63390cb55b3b4dae196d9c77c4959, type: 2}
+        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
+        m_MethodName: RaiseAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &903264056712806021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867594163669647866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac92fe964185d540b6eb635e2badac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forwardSpeed: 5
 --- !u!1 &4238973845198090344
 GameObject:
   m_ObjectHideFlags: 0
