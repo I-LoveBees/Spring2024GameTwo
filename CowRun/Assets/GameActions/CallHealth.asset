@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c22a3286254e9b49aa2bb227d32143d, type: 3}
-  m_Name: Health
+  m_Script: {fileID: 11500000, guid: 24899aa23afc3824798555896f93d349, type: 3}
+  m_Name: CallHealth
   m_EditorClassIdentifier: 
-  value: 50
-  disableEvent:
-    m_PersistentCalls:
-      m_Calls: []

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3648474295860886608}
   - component: {fileID: 315009708795257762}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerBulletInstancer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
