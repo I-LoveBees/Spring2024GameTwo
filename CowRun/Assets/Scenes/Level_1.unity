@@ -399,6 +399,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 922455210}
     m_Modifications:
+    - target: {fileID: -4330424329429659559, guid: 897218ee1bc8a15469758031b921b7d6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887723052331488063, guid: 897218ee1bc8a15469758031b921b7d6,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4453535493367948776, guid: 897218ee1bc8a15469758031b921b7d6,
         type: 3}
       propertyPath: m_Name
@@ -407,7 +417,7 @@ PrefabInstance:
     - target: {fileID: 9192182373867412361, guid: 897218ee1bc8a15469758031b921b7d6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -67.2
+      value: -73.46
       objectReference: {fileID: 0}
     - target: {fileID: 9192182373867412361, guid: 897218ee1bc8a15469758031b921b7d6,
         type: 3}
@@ -990,7 +1000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2448f61e7630b9146932dbf3f539680d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
 --- !u!1 &1125344255
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,7 +2024,7 @@ GameObject:
   - component: {fileID: 1871629421}
   - component: {fileID: 1871629420}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: MainCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2124,7 +2134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1942709536
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2194,6 +2204,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 922455210}
     m_Modifications:
+    - target: {fileID: -4330424329429659559, guid: 897218ee1bc8a15469758031b921b7d6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887723052331488063, guid: 897218ee1bc8a15469758031b921b7d6,
+        type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4453535493367948776, guid: 897218ee1bc8a15469758031b921b7d6,
         type: 3}
       propertyPath: m_Name
@@ -2267,15 +2287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 7551853115799575784, guid: 897218ee1bc8a15469758031b921b7d6,
-        type: 3}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 348903768}
     - target: {fileID: 9192182373867412361, guid: 897218ee1bc8a15469758031b921b7d6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -70.5
+      value: -73
       objectReference: {fileID: 0}
     - target: {fileID: 9192182373867412361, guid: 897218ee1bc8a15469758031b921b7d6,
         type: 3}
@@ -2432,8 +2447,8 @@ SceneRoots:
   - {fileID: 922455210}
   - {fileID: 8987625789408830968}
   - {fileID: 1647155576}
-  - {fileID: 1871629423}
   - {fileID: 1704721353}
   - {fileID: 1363488493}
   - {fileID: 1495110306}
+  - {fileID: 1871629423}
   - {fileID: 815230885}
