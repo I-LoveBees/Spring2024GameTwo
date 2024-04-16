@@ -12,10 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c22a3286254e9b49aa2bb227d32143d, type: 3}
   m_Name: Health
   m_EditorClassIdentifier: 
-  value: 1
-  minValue: 0
-  maxValue: 10
-  valueOutOfRange:
+  value: -1
+  disableEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: eb768ad5cf4e6c340bc1d007b9c922b7, type: 2}
@@ -30,6 +28,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  onValueChanged:
-    m_PersistentCalls:
-      m_Calls: []

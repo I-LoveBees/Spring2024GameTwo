@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c22a3286254e9b49aa2bb227d32143d, type: 3}
-  m_Name: Score
+  m_Script: {fileID: 11500000, guid: 44be9e23159b2fd4c9c6370595c5a8bd, type: 3}
+  m_Name: EnemyDestroyer
   m_EditorClassIdentifier: 
-  value: 1240
-  disableEvent:
-    m_PersistentCalls:
-      m_Calls: []

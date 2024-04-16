@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c22a3286254e9b49aa2bb227d32143d, type: 3}
-  m_Name: Score
+  m_Script: {fileID: 11500000, guid: 2c524bf409080a24bba0cd2359d7c8cf, type: 3}
+  m_Name: EnemyBrain
   m_EditorClassIdentifier: 
-  value: 1240
-  disableEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  aiBaseObj: {fileID: 0}
