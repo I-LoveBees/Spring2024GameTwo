@@ -9,13 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c22a3286254e9b49aa2bb227d32143d, type: 3}
-  m_Name: Counter
+  m_Script: {fileID: 11500000, guid: 95e95ae7f8a9e1546985ebb81a90862f, type: 3}
+  m_Name: groundInstancer
   m_EditorClassIdentifier: 
-  value: -1
-  disableEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  onZeroEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  prefab: {fileID: 0}
