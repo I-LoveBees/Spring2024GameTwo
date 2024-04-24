@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95e95ae7f8a9e1546985ebb81a90862f, type: 3}
   m_Name: groundInstancer
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 4533615571483314620, guid: d1c35956de9d30e418c47adeda29185a, type: 3}
